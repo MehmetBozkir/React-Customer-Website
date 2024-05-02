@@ -1,6 +1,22 @@
 import Animation from "./Animation";
 import Whatsapp from "./Whatsapp";
 
+const phoneNumber = "+905055492481";
+
+const handlePhoneClick = () => {
+  // Mobil tarayıcıda ise arama yap
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    )
+  ) {
+    window.location.href = `tel:${phoneNumber}`;
+  } else {
+    // Masaüstünde ise uyarı ver
+    alert("Bu numarayı aramak için lütfen mobil cihazınızı kullanın.");
+  }
+};
+
 function Hero() {
   return (
     <div className="m-11 md:mb-48">
@@ -26,7 +42,9 @@ function Hero() {
           <div>
             <p className="py-6 md:text-2xl">
               Tüm işleriniz 35 yıllık deneyim ile çözüme ulaşacaktır. <br />
-              <a href="tel:PHONE_NUM"> +905055492481 </a> <br />
+                   <a href="#" onClick={handlePhoneClick}>
+                +905055492481
+              </a> <br />
               <span className="flex m-4">
                 Whatsapp : <Whatsapp />
               </span>
