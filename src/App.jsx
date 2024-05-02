@@ -1,5 +1,4 @@
 import Navbar from "./Component/Navbar";
-import Carousell from "./Component/Carousell";
 import Footer from "./Component/Footer";
 import Hero from "./Component/Hero";
 
