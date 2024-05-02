@@ -3,7 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 function Footer() {
   return (
-    <footer className="footer footer-center p-4 bg-neutral text-primary-content">
+    <footer className="footer footer-center p-2 bg-neutral text-primary-content">
       <aside>
         <svg
           width="50"

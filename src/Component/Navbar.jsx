@@ -22,7 +22,7 @@ function Navbar() {
     <div className="m-4">
       <div className="navbar bg-info text-primary-content px-4 rounded-full">
         <div className="flex-1 flex items-center justify-center">
-          <button className="btn btn-ghost text-white text-5xl">
+          <button className="btn btn-ghost text-white md:text-5xl">
             Akpınar Elektrikçi Tamir Teknik Servis
           </button>
         </div>

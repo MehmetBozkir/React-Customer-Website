@@ -5,11 +5,8 @@ import Hero from "./Component/Hero";
 
 function App() {
   return (
-    <div>
+    <div className="sm:px-8">
       <Navbar />
-      <div className="place-items-center grid">
-        <Carousell />
-      </div>
       <Hero />
       <Footer />
     </div>
