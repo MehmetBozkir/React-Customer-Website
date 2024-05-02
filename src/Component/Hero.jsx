@@ -26,7 +26,7 @@ function Hero() {
           <div>
             <p className="py-6 md:text-2xl">
               Tüm işleriniz 35 yıllık deneyim ile çözüme ulaşacaktır. <br />
-              Telefon NO : 505 - 549 - 24 - 81 <br />
+              Telefon NO : +90 505 549 24 81 <br />
               <span className="flex m-4">
                 Whatsapp : <Whatsapp />
               </span>
